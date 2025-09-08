@@ -1,0 +1,23 @@
+
+#Question8
+arr = []
+
+arr.append(10)          
+arr.insert(0, 5)        
+print("After insertions:", arr)
+
+arr.pop()              
+arr.pop(0)              
+print("After deletions:", arr)
+
+arr = [1, 2, 3, 4, 5]
+if 3 in arr:
+    print("3 found at index", arr.index(3))
+
+for val in arr:
+    print(val, end=" ")
+
+arr[2] = 99
+print("\nAfter update:", arr)
+
+
